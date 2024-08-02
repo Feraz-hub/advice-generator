@@ -1,0 +1,66 @@
+body {
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    color: #1abc9c;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Caveat', cursive;
+    min-height: 50px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.advice {
+    background-color: #34495e;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px 5px rgba(26, 188, 156, 0.5);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.img1 {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.diceborder {
+    border: 1px solid #1abc9c;
+    background-color: #1abc9c;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px auto 0;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.dice {
+    width: 24px;
+}
+.diceborder:hover {
+    background-color: #16a085;
+    box-shadow: 0 0 10px #1abc9c;
+}
+.diceborder:active {
+    background-color: #0e6655;
+}
+.q {
+    font-size: 24px;
+}
